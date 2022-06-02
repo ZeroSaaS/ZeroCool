@@ -9,7 +9,8 @@ from envirophat import analog
 
 # Import library and create instance of REST client.
 from Adafruit_IO import Client
-aio = Client('************************')
+#use your client key from adafruit.io
+aio = Client('YOUR_CLIENT_KEY')
 
 #try except to handle keyboard interrupt
 try: 
